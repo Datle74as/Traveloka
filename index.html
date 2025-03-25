@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveloka</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="app">
+        <div class="app__header header">
+            <div class="header__wrapper">
+                <a class="header__logo">
+                    <img src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v3/f/fbab4f587da2242fbe9858fe3e5ba717.svg" alt="">
+                </a>
+                <div class="header__topbar">
+                    <div class="header__topbar-menu">
+                        <a href="#" class="header__topbar-item">
+                            <span>VI | VND</span>
+                            <i class="fa-solid fa-chevron-down header__icon header__icon--dropdown"></i>
+                        </a>
+                        <a href="#" class="header__topbar-item">
+                            <i class="fa-solid fa-percent header__icon header__icon--percent">
+                                <div class="header__topbar-circle"></div>
+                            </i>
+                            <span>Khuyến mãi</span>
+                        </a>
+                        <a href="#" class="header__topbar-item">
+                            <span>Hỗ trợ</span>
+                            <div class="support-content">
+                                <div class="support-content__item">
+                                    <i class="fa-regular fa-circle-question support-content__icon"></i>
+                                    <span>Trợ giúp</span>
+                                </div>
+                                <div class="support-content__item">
+                                    <i class="fa-solid fa-comment-sms support-content__icon"></i>
+                                    <span>Liên hệ chúng tôi</span>
+                                </div>
+                                <div class="support-content__item">
+                                    <i class="fa-solid fa-envelope-open-text support-content__icon"></i>
+                                    <span>Hộp thư của tôi</span>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-down header__icon header__icon--dropdown"></i>
+                        </a>
+                        <a href="#" class="header__topbar-item">Hợp tác với chúng tôi</a>
+                        <a href="#" class="header__topbar-item">Đặt chỗ của tôi</a>
+                    </div>
+                    <div class="header__auth">
+                        <div class="btn btn--login btn--transparent">
+                            <i class="fa-solid fa-user header__auth-login-icon"></i>
+                            <span>Đăng Nhập</span>
+                        </div>
+                        <div class="btn btn--signup btn--primary">Đăng ký</div>
+                    </div>
+                </div>
+
+                <div class="header__nav">
+                    <div class="header__menu">
+                        <a href="#" class="header__menu-item">Khách sạn</a>
+                        <a href="#" class="header__menu-item">Vé máy bay</a>
+                        <a href="#" class="header__menu-item">Vé xe khách</a>
+                        <a href="#" class="header__menu-item">Đưa đón sân bay</a>
+                        <a href="#" class="header__menu-item">Cho thuê xe</a>
+                        <a href="#" class="header__menu-item">Hoạt động & Vui chơi</a>
+                        <a href="#" class="header__menu-item">
+                            <span>More</span>
+                            <div class="more-content">
+                                <div class="more-content__item">
+                                    <img class="more-content__icon" src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v3/7/7a4f3d4c2b05a367743ebe8bcfc062d0.svg" alt="">
+                                    <span>Combo tiết kiệm</span>
+                                </div>
+                                <div class="more-content__item">
+                                    <img class="more-content__icon" src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v3/b/b5ba7b36551c2499565d55c265f5f9e7.svg" alt="">
+                                    <span>Bảo hiểm du lịch</span>
+                                </div>
+                                <div class="more-content__item">
+                                    <img class="more-content__icon" src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v3/e/e676ec2c54d3d081691ff29b7fb9a97e.svg" alt="">
+                                    <span>Phiếu quà tặng</span>
+                                </div>
+                                <div class="more-content__item">
+                                    <img class="more-content__icon" src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v3/d/d72faf61f6e354339d9f497d0bdd59fb.svg" alt="">
+                                    <span>Du thuyền</span>
+                                </div>
+                                <div class="more-content__item">
+                                    <img class="more-content__icon" src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v3/e/e807cdb83ebd6fe9329c0e3ad4764265.svg" alt="">
+                                    <span>Cẩm nang du lịch</span>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-chevron-down header__icon header__icon--dropdown"></i>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="header__booking booking">
+                    <div class="booking__title">Từ Đông Nam Á Đến Thế Giới, Trong Tầm Tay Bạn</div>
+                    <div class="booking__menu">
+                        <a href="#" class="booking__menu-item btn-option btn-option--active-white">Khách sạn</a>
+                        <a href="#" class="booking__menu-item btn-option">Vé máy bay</a>
+                        <a href="#" class="booking__menu-item btn-option">Vé xe khách</a>
+                        <a href="#" class="booking__menu-item btn-option">Đưa đón sân bay</a>
+                        <a href="#" class="booking__menu-item btn-option">Cho thuê xe</a>
+                        <a href="#" class="booking__menu-item btn-option">Hoạt động & Vui chơi</a>
+                        <a href="#" class="booking__menu-item btn-option">Khác</a>
+                    </div>
+
+                    <div class="booking__content booking__content--hotel">
+                        <div class="booking__options">
+                            <div class="booking__options-item btn-option btn-option--size-s btn-option--active-primary">Khách sạn</div>
+                            <div class="booking__options-item btn-option btn-option--size-s">Biệt thự</div>
+                            <div class="booking__options-item btn-option btn-option--size-s">Căn hộ</div>
+                        </div>
+                        <div class="booking__search-bar">
+
+                        </div>
+                    </div>
+
+                    <div class="booking__content booking__content--plane"></div>
+                    <div class="booking__content booking__content--bus"></div>
+                    <div class="booking__content booking__content--pickup"></div>
+                    <div class="booking__content booking__content--car-rental"></div>
+                    <div class="booking__content booking__content--entertainment"></div>
+                    <div class="booking__content booking__content--more-options"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="app__body content"></div>
+        <div class="app__footer footer"></div>
+    </div>
+</body>
+</html>
