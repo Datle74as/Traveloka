@@ -34,6 +34,8 @@ html {
     bottom: 0;
     z-index: 10;
     display: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal__overlay {
@@ -42,7 +44,7 @@ html {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     animation: fadeIn ease-in 0.2s;
-    display: none;
+    /* display: none; */
 }
 
 .modal__container {
@@ -52,7 +54,7 @@ html {
     margin: auto;
     border-radius: 5px;
     animation: growth ease-in 0.2s;
-    display: none;
+    /* display: none; */
 }
 
 /* btn */
@@ -90,6 +92,7 @@ html {
 }
 
 .btn-option {
+    height: 42px;
     font-size: 1.6rem;
     font-weight: 700;
     border: 1px solid transparent;
@@ -113,11 +116,10 @@ html {
     color: var(--black-color) !important;
 }
 
-.btn-option--active-white .booking__menu-icon {
-    color: var(--button-color) !important;
-}
-
 .btn-option--size-s {
+    display: flex;
+    align-items: center;
+    height: 32px;
     font-size: 1.4rem;
     padding: 6px 12px;
     background-color: rgba(29, 29, 29, 0.4);

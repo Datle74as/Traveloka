@@ -1,3 +1,7 @@
+.app {
+    position: relative;
+}
+
 .app__header {
     background-image: url("../imgs/header\ background.webp");
     height: 600px;
@@ -243,11 +247,36 @@
 .booking__menu-icon {
     font-size: 20px;
     margin-right: 8px;
-    color: #cdd0d3;
+    color: #cdd0d1;
+    fill: #cdd0d1;
 }
 
 .booking__menu-icon--plane {
     rotate: -45deg;
+}
+
+.btn-option--active-white .booking__menu-icon--hotel {
+    color: var(--button-color);
+}
+
+.btn-option--active-white .booking__menu-icon--plane {
+    color: #30C5F7;
+}
+
+.btn-option--active-white .booking__menu-icon--bus {
+    color: #20BF55;
+}
+
+.btn-option--active-white .booking__menu-icon--pickup {
+    fill: #6DD3CE;
+}
+
+.btn-option--active-white .booking__menu-icon--car-rental {
+    fill: #087E8B;
+}
+
+.btn-option--active-white .booking__menu-icon--entertainment {
+    color: #FF6D6A;
 }
 
 .booking__menu-item {
@@ -257,11 +286,142 @@
 }
 
 .booking__content  {
-    margin-top: 24px;
+    display: none;
+    margin: 24px 18px 0 18px;
+}
+
+.booking__content--active {
+    display: inline-flex;
+    flex-direction: column;
 }
 
 .booking__content--hotel {
 
+}
+
+.booking__content--plane .booking__search-bar{
+    margin-right: 20px;
+}
+
+.booking__content--bus .booking__search-input {
+    position: relative;
+    width: 225px;
+}
+
+.booking__content--bus .booking__search-input--size-l {
+    width: 250px;
+}
+
+.booking__content--bus .booking__search-bar {
+    position: relative;
+}
+
+.booking__content--bus .booking__search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 48px;
+    width: 48px;
+}
+
+.booking__content--pickup{
+    align-items: center;
+}
+
+.booking__content--pickup .booking__search-bar{
+    position: relative;
+}
+
+.booking__content--pickup .booking__search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 48px;
+    width: 48px;
+}
+
+.booking__content--pickup .booking__search-input {
+    width: 240px;
+}
+
+.booking__content--pickup .booking__search-input--size-l {
+    width: 336px;
+}
+
+.booking__content--car-rental {
+
+}
+
+.booking__content--car-rental .booking__search-bar {
+    position: relative;
+}
+
+.booking__content--car-rental .booking__search-input {
+    width: 220px;
+}
+
+.booking__content--car-rental .booking__search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 48px;
+    width: 48px;
+}
+
+.booking__content--car-rental .booking__linked-brands {
+    width: 168px;
+}
+
+.booking__content--entertainment .booking__search-bar{
+    margin-top: 20px;
+}
+
+.booking__content--entertainment .booking__search-input {
+    width: 900px;
+}
+
+.booking__content--entertainment .booking__search-inputwrap .booking__search-icon {
+    font-size: 20px;
+    color: var(--primary-color);
+    top: 15px;
+}
+
+.booking__content--entertainment .booking__search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 48px;
+    width: 48px;
+}
+
+.booking__content--entertainment .booking__linked-brands {
+    margin-top: 20px;
+    width: 718px;
+}
+
+.booking__options-wrap {
+    display: flex;
+    justify-content: space-between;
 }
 
 .booking__options {
@@ -272,11 +432,60 @@
     color: var(--white-color);
 }
 
+.booking__number-and-class {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.booking__number-and-class span {
+    margin-left: 8px;
+    margin-right: 24px;
+}
+
+.booking__passenger-number {
+    display: flex;
+    min-width: 250px;
+    height: 35px;
+    align-items: center;
+    padding: 6px 12px;
+    margin-right: 8px;
+    background-color: rgba(205, 208, 209, 0.3);
+    border-radius: 6px;
+    border: 1px solid var(--white-color);
+}
+
+.booking__ticket-class {
+    display: flex;
+    min-width: 250px;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: rgba(205, 208, 209, 0.3);
+    border-radius: 6px;
+    border: 1px solid var(--white-color);
+}
+
+.booking__chevron-icon {
+    margin-left: auto;
+}
+
+
+.booking__search-wrap {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .booking__search-bar {
     display: inline-flex;
     margin-top: 48px;
-    border: 3px solid #9e9e9e;
+    border: 3px solid rgba(205, 208, 209, 0.5);
     border-radius: 16px;
+}
+
+.booking__search-bar--flight {
+    
 }
 
 .booking__search-item {
@@ -304,8 +513,14 @@
 }
 
 .booking__search-icon--calendar {
-    top: 14px; 
     font-size: 20px;
+    top: 14px; 
+    color: var(--primary-color);
+}
+
+.booking__search-icon--flight {
+    font-size: 20px;
+    top: 14px; 
     color: var(--primary-color);
 }
 
@@ -326,6 +541,10 @@
     outline-offset: -1px;
 }
 
+.booking__search-input--flight {
+    width: 267px;
+}
+
 .booking__search-item:first-child .booking__search-input {
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -336,4 +555,214 @@
     border-bottom-right-radius: 12px;
 }
 
+.booking__search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 2px;
+    background-color: #FF5E1F;
+    border-radius: 14px;
+    outline: 4px solid rgba(205, 208, 209, 0.3);
+}
+
+.booking__search-icon--magifying-glass {
+    position: unset;
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+.booking__search-more {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-top: 24px;
+}
+
+.booking__search-more-btn {
+    font-size: 1.4rem;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-left: 12px;
+    background-color: rgba(205, 208, 209, 0.3);
+}
+
+.booking__bus-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    z-index: 10;
+}
+
+.booking__linked-brands {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    background-color: var(--white-color);
+    margin-top: 42px;
+    height: 50px;
+    width: 296px;
+    border-radius: 8px;
+}
+
+.booking__trusted-by {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.booking__suggestion {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    width: 262px;
+    padding: 0 8px;
+    margin-left: 36px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white-color);
+    background-color: #03121A;
+    border: 1px solid var(--white-color);
+    border-radius: 30px;
+}
+
+.booking__suggestion::after {
+    content: "";
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 3px;
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 14px solid #03121A;
+}
+
+.booking__suggestion::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 17px solid #fff;
+}
+
+.booking__suggestion-link {
+    display: block;
+}
+
+.booking__suggestion-arrow-icon {
+    font-size: 20px;
+}
+
+.booking__experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.booking__experience-title {
+    font-size: 1.4rem;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.booking__experience-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+}
+
+.booking__experience-item {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    border-radius: 6px;
+    background-color: rgba(205, 208, 209, 0.3);
+}
+
+.booking__experience-text {
+    margin-left: 4px;
+}
+
+.booking__more-modal {
+    width: 1080px;
+    max-height: 70%;
+    padding: 24px;
+    margin: 72px 0;
+}
+
+.more-services {
+    display: flex;
+    flex-direction: column;
+}
+
+.more-services__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #687176;
+    margin-bottom: 40px;
+}
+
+.more-services__title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.more-services__close-btn {
+    font-size: 20px;
+}
+
+.more-services__heading-text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black-color);
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.more-services__body {
+
+}
+
+.more-services__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-services__item {
+    display: flex;
+    align-items: center;
+    height: 66px;
+    width: 324px;
+    border: 1px solid #cdd0d180;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--black-color);
+    padding: 12px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.more-services__icon {
+    margin-right: 16px;
+}
 
