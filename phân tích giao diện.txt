@@ -1,0 +1,43 @@
+1. Home
+1.1. Header
+•	Topbar
+•	Navbar
+1.2. Booking
+•	Vé khách sạn
+•	Vé máy bay
+•	Vé xe khách
+•	Đưa đón sân bay
+•	Cho thuê xe
+•	Hoạt động vui chơi
+•	Khác (modal)
+1.3. Thẻ deal (ví dụ: đi chơi lễ, đi chơi cuối tuần)
+1.4. Thẻ Mã ưu đãi Tặng bạn mới
+1.5. Thẻ top khách sạn
+1.6. Thẻ Disney Adventure Cruise
+1.7. Thẻ nâng tầm trải nghiệm
+1.8. Thẻ Deal giảm giá hời
+1.9. Thẻ Deal khách sạn nổi bật
+1.10. Thẻ hoạt động vui chơi
+1.11. Thẻ cẩm nang du lịch
+1.12. Thẻ đề xuất du lịch
+1.13. Footer
+
+2. Khuyến mãi
+3. Trợ giúp
+4. Hợp tác với chúng tôi
+5. Đặt chỗ của tôi
+6. Đăng ký / Đăng nhập
+7. Khách sạn
+8. Vé máy bay
+9. Vé xe khách
+10. Đưa đón sân bay
+11. Cho thuê xe
+12. Hoạt động vui chơi
+12. Bảo hiểm du lịch (More)
+13. Phiếu quà tặng (More)
+14. Du thuyền (More)
+15. Cẩm nang du lịch (More)
+16. Đi chơi lễ (link từ home page)
+17. Đi chơi cuối tuần (link từ home page)
+18. Trang info đặt phòng 
+19. Trang tìm kiếm (nhiều trang, mỗi loại vé một trang tìm kiếm riêng)
