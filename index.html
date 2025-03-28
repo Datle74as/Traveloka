@@ -104,7 +104,7 @@
                             <i class="fa-solid fa-hotel booking__menu-icon booking__menu-icon--hotel"></i>
                             <span>Khách sạn</span>
                         </a>
-                        <a href="#" class="booking__menu-item btn-option">
+                        <a href="#" class="booking__menu-item btn-option btn-option--active-white">
                             <i class="fa-solid fa-plane booking__menu-icon booking__menu-icon--plane"></i>
                             <span>Vé máy bay</span>
                         </a>
@@ -120,7 +120,7 @@
                             <svg class="booking__menu-icon booking__menu-icon--car-rental" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-id="IcProductDuotoneCarRentalFill"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 20V21C4 21.8284 4.67157 22.5 5.5 22.5C6.32843 22.5 7 21.8284 7 21V20H17V21C17 21.8284 17.6716 22.5 18.5 22.5C19.3284 22.5 20 21.8284 20 21V20C20.6129 19.6936 21 19.0672 21 18.382V15C21 14.4477 20.5523 14 20 14L20.6412 13.3588C20.8555 13.1445 20.9086 12.8172 20.7731 12.5461C20.6164 12.2328 20.2531 12.0823 19.9207 12.1931L19 12.5L18.6961 11.1323C18.2894 9.30213 16.6661 8 14.7913 8H9.20869C7.33389 8 5.71064 9.30213 5.30394 11.1323L5 12.5L4.07927 12.1931C3.74689 12.0823 3.38362 12.2328 3.22693 12.5461C3.09141 12.8172 3.14453 13.1445 3.35881 13.3588L4 14C3.44772 14 3 14.4477 3 15V18.382C3 19.0672 3.38713 19.6936 4 20ZM16.8767 14H7.12331C6.80343 14 6.56582 13.7038 6.63521 13.3915L6.97795 11.8492C7.28298 10.4766 8.50042 9.5 9.90651 9.5H14.0935C15.4996 9.5 16.717 10.4766 17.022 11.8492L17.3648 13.3915C17.4342 13.7038 17.1966 14 16.8767 14ZM8.5 18H6.5C5.94772 18 5.5 17.5523 5.5 17C5.5 16.4477 5.94772 16 6.5 16H8.5C9.05228 16 9.5 16.4477 9.5 17C9.5 17.5523 9.05228 18 8.5 18ZM15.5 18H17.5C18.0523 18 18.5 17.5523 18.5 17C18.5 16.4477 18.0523 16 17.5 16H15.5C14.9477 16 14.5 16.4477 14.5 17C14.5 17.5523 14.9477 18 15.5 18Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 7H5C3.89543 7 3 6.10457 3 5V4C3 2.89543 3.89543 2 5 2H8.5C9.32843 2 10 2.67157 10 3.5H19.5C20.0523 3.5 20.5 3.94772 20.5 4.5C20.5 5.05228 20.0523 5.5 19.5 5.5H10C10 6.32843 9.32843 7 8.5 7ZM5.5 6C5.22386 6 5 5.77614 5 5.5V3.5C5 3.22386 5.22386 3 5.5 3C5.77614 3 6 3.22386 6 3.5V5.5C6 5.77614 5.77614 6 5.5 6Z"></path></svg>
                             <span>Cho thuê xe</span>
                         </a>
-                        <a href="#" class="booking__menu-item btn-option btn-option--active-white">
+                        <a href="#" class="booking__menu-item btn-option">
                             <i class="fa-solid fa-person-walking booking__menu-icon booking__menu-icon--entertainment"></i>
                             <span>Hoạt động & Vui chơi</span>
                         </a>
@@ -170,7 +170,7 @@
                         </div>
                     </div>
 
-                    <div class="booking__content booking__content--plane">
+                    <div class="booking__content booking__content--plane booking__content--active">
                         <div class="booking__options-wrap">
                             <div class="booking__options">
                                 <div class="booking__options-item btn-option btn-option--size-s btn-option--active-primary">Một chiều / Khứ hồi</div>
@@ -465,7 +465,7 @@
                         </div>
                     </div>
 
-                    <div class="booking__content booking__content--more-options  booking__content--active">
+                    <div class="booking__content booking__content--more-options">
                         <div class="modal">
                             <div class="modal__container booking__more-modal more-services">
                                 <div class="more-services__header">
@@ -537,7 +537,70 @@
             </div>
         </div>
         
-        <div class="app__body content"></div>
+        <div class="app__body content">
+            <div class="content__deal deal">
+                <div class="deal__heading">
+                    <div class="deal__title">Đi chơi lễ</div>
+                </div>
+                <div class="deal__subtitle">Đặt sớm giá rẻ, giảm đến 1 Triệu VNĐ</div>
+                <a href="#deal" class="deal__link">
+                    <img class="deal__img" src="./assets/imgs/deal-di-choi-le.webp" alt="di choi le">
+                </a>
+            </div>
+
+            <div class="content__deal deal">
+                <div class="deal__heading">
+                    <div class="deal__title">Deal tiết kiệm đi chơi lễ</div>
+                </div>
+                <div class="deal__subtitle">Nhiều lựa chọn khách sạn, vui chơi, di chuyển giảm đến 500K</div>
+                <a href="#deal" class="deal__link">
+                    <img class="deal__img" src="./assets/imgs/deal-tiet-kiem-di-choi-le.webp" alt="di choi le">
+                </a>
+            </div>
+
+            <div class="content__deal deal">
+                <div class="deal__heading">
+                    <div class="deal__logo">
+                        <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/09/04/1725447475210-6886260457851a5434e89e2220fa78e7.png?_src=imagekit&amp;tr=q-40,h-24" importance="low" loading="lazy" srcset="https://ik.imagekit.io/tvlk/image/imageResource/2024/09/04/1725447475210-6886260457851a5434e89e2220fa78e7.png?_src=imagekit&amp;tr=q-40,h-24 1x, https://ik.imagekit.io/tvlk/image/imageResource/2024/09/04/1725447475210-6886260457851a5434e89e2220fa78e7.png?_src=imagekit&amp;tr=dpr-2,q-40,h-24 2x, https://ik.imagekit.io/tvlk/image/imageResource/2024/09/04/1725447475210-6886260457851a5434e89e2220fa78e7.png?_src=imagekit&amp;tr=dpr-3,q-40,h-24 3x" height="24" class="r-88pszg" style="object-fit:fill;object-position:50% 50%">
+                    </div>
+                    <div class="deal__title">Deal tiết kiệm đi chơi lễ</div>
+                </div>
+                <div class="deal__subtitle">Nhiều lựa chọn khách sạn, vui chơi, di chuyển giảm đến 500K</div>
+                
+                <div class="promotion">
+                    <div class="promotion__list">
+                        <div class="promotion__item">
+                            <div class="promotion__item-header">
+                                <div class="promotion__item-logo">
+                                    <img src="https://ik.imagekit.io/tvlk/image/imageResource/2025/01/17/1737086728239-6a4b25fdead56c8be095dc511b6bd971.png?tr=q-75,w-16,h-16" importance="low" loading="lazy" srcset="https://ik.imagekit.io/tvlk/image/imageResource/2025/01/17/1737086728239-6a4b25fdead56c8be095dc511b6bd971.png?tr=q-75,w-16,h-16 1x, https://ik.imagekit.io/tvlk/image/imageResource/2025/01/17/1737086728239-6a4b25fdead56c8be095dc511b6bd971.png?tr=dpr-2,q-75,w-16,h-16 2x, https://ik.imagekit.io/tvlk/image/imageResource/2025/01/17/1737086728239-6a4b25fdead56c8be095dc511b6bd971.png?tr=dpr-3,q-75,w-16,h-16 3x" width="16" height="16" style="object-fit:contain;object-position:50% 50%">
+                                </div>
+                                <div class="promotion__item-content">
+                                    <div class="promotion__item-title">Giảm giá đến 500K</div>
+                                    <div class="promotion__item-subtitle">chỉ có hiệu lực đối với Người dùng mới</div>
+                                </div>
+                                <i class="fa-solid fa-circle-info promotion__item-info"></i>
+                            </div>
+                            <div class="promotion__devider">
+                                <div class="promotion__dash-line"></div>
+                            </div>
+                            <div class="promotion__item-code-container">
+                                <div class="promotion__item-code">
+                                    <i></i>
+                                    <span>HELLOSGCAVN</span>
+                                </div>
+                                <div class="promotion__item-copy-btn">
+                                    <i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="promotion__item">
+                            <img src="https://ik.imagekit.io/tvlk/image/imageResource/2024/11/04/1730721314025-b984bea9e76fb5d136abb8982b6da3c0.png?tr=q-75,w-16,h-16" importance="low" loading="lazy" srcset="https://ik.imagekit.io/tvlk/image/imageResource/2024/11/04/1730721314025-b984bea9e76fb5d136abb8982b6da3c0.png?tr=q-75,w-16,h-16 1x, https://ik.imagekit.io/tvlk/image/imageResource/2024/11/04/1730721314025-b984bea9e76fb5d136abb8982b6da3c0.png?tr=dpr-2,q-75,w-16,h-16 2x, https://ik.imagekit.io/tvlk/image/imageResource/2024/11/04/1730721314025-b984bea9e76fb5d136abb8982b6da3c0.png?tr=dpr-3,q-75,w-16,h-16 3x" width="16" height="16" style="object-fit:contain;object-position:50% 50%">
+                        </div>
+                        <div class="promotion__item"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="app__footer footer"></div>
     </div>
 </body>
