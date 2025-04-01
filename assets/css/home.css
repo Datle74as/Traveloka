@@ -1152,3 +1152,116 @@
     font-weight: 700;
 }
 
+/* subscription banner */
+
+.subscription-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-image: url("../imgs/traveloka-app-install/background-img.webp");
+    background-size: cover;
+}
+
+.subscription-banner__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin-left: 100px;
+}
+
+.subscription-banner__title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: var(--white-color);
+    margin: 16px 0;
+}
+
+.subscription-banner__mail {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscription-banner__input-wrap {
+    display: flex;
+    align-items: center;
+    width: 472px;
+    height: 40px;
+    background-color: var(--white-color);
+    border-radius: 8px;
+    padding: 0 10px;
+}
+
+.subscription-banner__mail-icon {
+    font-size: 2rem;
+    color: #0194f3;
+}   
+
+.subscription-banner__input {
+    height: 24px;
+    font-size: 1.6rem;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.subscription-banner__button {
+    height: 40px;
+    width: 110px;
+    background-color: #ff5e1f;
+    font-weight: 700;
+}
+
+.subscription-banner__subtitle {
+    margin-top: 60px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: var(--white-color);
+}
+
+.subscription-banner__installation {
+    display: flex;
+    width: 100%;
+    column-gap: 16px;
+    margin-top: 8px;
+}
+
+.subscription-banner__QRcode {
+    height: 66px;
+    width: 66px;
+    border: 5px solid #ffffff80;
+    border-radius: 4px;
+}
+
+.subscription-banner__ggplay {
+
+}
+
+.subscription-banner__appstore {
+
+}
+
+.subscription-banner__phone {
+    position: absolute;
+    top: 40px;
+    left: -360px;
+    width: 278px;
+    height: 360px;
+    z-index: 11;
+}
+
+.subscription-banner__blue-blob {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 100%;
+    z-index: 10;
+}
+ 
