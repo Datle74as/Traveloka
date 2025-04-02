@@ -1264,4 +1264,225 @@
     height: 100%;
     z-index: 10;
 }
- 
+
+/* footer */
+
+.app__footer  {
+    height: 814px;
+    width: 100%;
+    background-color: #1c2930;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__nav {
+    display: flex;
+    flex: 1;
+    width: 1222px;
+}
+
+.footer__nav-item  {
+    margin-top: 56px;
+    width: 264px;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    padding: 0 12px;
+}
+
+.footer__nav-item--partners {
+    margin-top: 22px;
+    width: 408px;
+}
+
+.footer__nav-item--explore {
+    
+}
+
+.footer__nav-item--products {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__nav-item--overview .footer__more{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__logo-traveloka {
+
+}
+
+.footer__partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__partner-logo {
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.footer__partner-slogan {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 242px;
+    background-color: #354148;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px 24px;
+}
+
+.footer__partner-shake-hand-logo {
+    margin-right: 12px;
+}
+
+.footer__payment-methods {
+
+}
+
+.footer__payment-heading {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.footer__payment-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.footer__payment-logo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 72px;
+    background-color: var(--white-color);
+    border-radius: 6px;
+}
+
+.footer__payment-logo {
+    height: 16px;
+    width: 57px;
+}
+
+.footer__about {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__follows {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 44px;
+}
+
+.footer__nav-item {
+
+}
+
+.footer__nav-heading {
+    font-size: 1.6rem;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.footer__nav-link {
+    opacity: 0.65;
+    font-weight: 500;
+}
+
+.footer__nav-link:hover {
+    text-decoration: underline;
+    color: var(--white-color);
+    opacity: 1;
+}
+
+.footer__more {
+
+}
+
+.footer__nav-heading {
+
+}
+
+.footer__installation {
+    margin-top: 44px;
+}
+
+.footer__ggplay {
+    margin-top: 12px;
+}
+
+.footer__appstore {
+    margin-top: 16px;
+}
+
+.footer__copyright {
+    position: relative;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgba(205, 208, 209, 0.15);
+    width: 100%;
+    height: 88px;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.footer__company-location {
+    font-size: 1.2rem;
+    opacity: 0.65;
+}
+
+.footer__copyright-info {
+    font-size: 1.4rem;
+}
+
+.footer__support {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 16px;
+    bottom: 16px;
+    height: 40px;
+    width: 170px;
+    background-color: #0194f3;
+    border-radius: 20px;
+}
+
+.footer__support:hover {
+    background-color: #007ce8;
+    cursor: pointer;
+}
+
+.footer__support-icon {
+    font-size: 2.2rem;
+    margin-left: 12px;
+    margin-right: 6px;
+}   
+
+.footer__support-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+
